@@ -1,5 +1,6 @@
 variable "project_id" {
   type = string
+  default = "bankproject-461822"
 }
 
 variable "region" {
@@ -9,6 +10,7 @@ variable "region" {
 
 variable "bucket_name" {
   type = string
+  default = "bucket130625"
 }
 
 variable "storage_class" {
